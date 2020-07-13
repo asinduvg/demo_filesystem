@@ -1,5 +1,5 @@
 package com.rtjvm.scala.oop.filesystem
 
-class FilesystemException {
+class FilesystemException (message: String) extends RuntimeException(message){
 
 }
